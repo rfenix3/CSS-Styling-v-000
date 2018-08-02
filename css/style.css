@@ -1,0 +1,37 @@
+/* This is
+a comment */
+
+p {
+  font-size: 1em; /* 16px, ?pt, 100%, 1em */
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;
+  color: #777;
+  text-align: center;
+}
+
+/* Class selector (applied to as many elements as you like) */
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID Selector (apply to unique element per page) */
+#logo {
+  background-color: aqua;
+}
+
+/* Psuedo Selector */
+#details a:hover {
+  color: black;
+  text-decoration: underline
+}
+#details a:active {
+  color: red;
+}
